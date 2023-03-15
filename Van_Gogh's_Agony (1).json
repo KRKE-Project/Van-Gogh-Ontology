@@ -119,15 +119,15 @@
     "superClasses" : [ "class1" ],
     "instances" : 2,
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Citron-yellow",
-      "labels" : {
-        "IRI-based" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Citron-yellow"
-      },
-      "annotations" : { }
-    }, {
       "iri" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Blue",
       "labels" : {
         "IRI-based" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Blue"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Citron-yellow",
+      "labels" : {
+        "IRI-based" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Citron-yellow"
       },
       "annotations" : { }
     } ]
@@ -150,12 +150,6 @@
     "superClasses" : [ "class12" ],
     "instances" : 3,
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/St-Remy",
-      "labels" : {
-        "IRI-based" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/St-Remy"
-      },
-      "annotations" : { }
-    }, {
       "iri" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Arles",
       "labels" : {
         "IRI-based" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Arles"
@@ -165,6 +159,12 @@
       "iri" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Alpilles_mountains",
       "labels" : {
         "IRI-based" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Alpilles_mountains"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/St-Remy",
+      "labels" : {
+        "IRI-based" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/St-Remy"
       },
       "annotations" : { }
     } ]
@@ -373,9 +373,9 @@
     "superClasses" : [ "class17" ],
     "instances" : 3,
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Eugene_Henri_Paul_Gauguin",
+      "iri" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Vincent_Willem_van_Gogh",
       "labels" : {
-        "IRI-based" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Eugene_Henri_Paul_Gauguin"
+        "IRI-based" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Vincent_Willem_van_Gogh"
       },
       "annotations" : { }
     }, {
@@ -385,9 +385,9 @@
       },
       "annotations" : { }
     }, {
-      "iri" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Vincent_Willem_van_Gogh",
+      "iri" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Eugene_Henri_Paul_Gauguin",
       "labels" : {
-        "IRI-based" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Vincent_Willem_van_Gogh"
+        "IRI-based" : "http://www.semanticweb.org/poweruser/ontologies/2023/1/van_gogh_agony/Eugene_Henri_Paul_Gauguin"
       },
       "annotations" : { }
     } ]
