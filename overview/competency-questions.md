@@ -198,12 +198,12 @@ Answer: View From Bedroom Window, Typical churches of Brabant Netherlands, Image
 {% endtabs %}
 
 {% hint style="info" %}
-### ‎Ontology Development of «Van Gogh's Agony»
+### <mark style="color:orange;">‎Ontology Development of «Van Gogh's Agony»</mark>
 {% endhint %}
 
 <details>
 
-<summary><strong>Turtle Serialization</strong></summary>
+<summary><mark style="color:blue;"><strong>Turtle Serialization</strong></mark></summary>
 
 {% code title="Van_Gogh's_Agony.ttl" overflow="wrap" %}
 ```turtle
@@ -643,17 +643,17 @@ or The Agony in the Garden"""@en .
 
 {% file src="../.gitbook/assets/Van_Gogh's_Agony.ttl" %}
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-15 231914.jpeg" alt=""><figcaption><p>Graph Visualization</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Van_Gogh_s_Agony_Graph_Visualization.jpg" alt=""><figcaption><p><em><mark style="color:purple;"><strong>Graph Visualization</strong></mark></em></p></figcaption></figure>
 
 {% file src="../.gitbook/assets/Van_Gogh's_Agony_Graph_Visualization.svg" %}
 
 {% hint style="info" %}
-### Ontology Development of «Vincent van Gogh: The Starry Nigh»
+### <mark style="color:orange;">Ontology Development of «Vincent van Gogh: The Starry Nigh»</mark>
 {% endhint %}
 
 <details>
 
-<summary><strong>Turtle Serialization</strong></summary>
+<summary><mark style="color:blue;"><strong>Turtle Serialization</strong></mark></summary>
 
 {% code title="Vincent_van_Gogh_The_Starry_Nigh.ttl" overflow="wrap" lineNumbers="true" %}
 ```turtle
@@ -1223,7 +1223,7 @@ or The Agony in the Garden"""@en .
 
 {% file src="../.gitbook/assets/Vincent_van_Gogh_The_Starry_Nigh.ttl" %}
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-15 232718.jpeg" alt=""><figcaption><p>Graph Visualization</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Vincent_van_Gogh_The_Starry_Nigh_Graph_Visualization.jpg" alt=""><figcaption><p><em><mark style="color:purple;"><strong>Graph Visualization</strong></mark></em></p></figcaption></figure>
 
 {% file src="../.gitbook/assets/Vincent_van_Gogh_The_Starry_Nigh_Graph_Visualization.svg" %}
 
