@@ -1,0 +1,1512 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "IRI-based" ],
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night"
+  },
+  "metrics" : {
+    "classCount" : 37,
+    "datatypeCount" : 4,
+    "objectPropertyCount" : 27,
+    "datatypePropertyCount" : 4,
+    "propertyCount" : 31,
+    "nodeCount" : 41,
+    "axiomCount" : 298,
+    "individualCount" : 39
+  },
+  "class" : [ {
+    "id" : "class20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class39",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "class38",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "class41",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "thing1",
+    "type" : "owl:Thing"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class20",
+    "label" : {
+      "IRI-based" : "Balance"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Balance",
+    "superClasses" : [ "class10" ],
+    "instances" : 0
+  }, {
+    "id" : "class3",
+    "label" : {
+      "IRI-based" : "Historical_and_Cultural_Significance"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Historical_and_Cultural_Significance",
+    "subClasses" : [ "class33" ],
+    "instances" : 3,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Example_of_Post-Impressionist_Style",
+      "labels" : {
+        "IRI-based" : "Example_of_Post-Impressionist_Style"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Artistic_Legacy",
+      "labels" : {
+        "IRI-based" : "Artistic_Legacy"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Development_of_Modern_Art",
+      "labels" : {
+        "IRI-based" : "Development_of_Modern_Art"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class9",
+    "label" : {
+      "IRI-based" : "Shape"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Shape",
+    "superClasses" : [ "class12" ],
+    "instances" : 0
+  }, {
+    "id" : "class37",
+    "label" : {
+      "IRI-based" : "Painting"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Painting",
+    "superClasses" : [ "class29" ],
+    "instances" : 3,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Irises",
+      "labels" : {
+        "IRI-based" : "Irises"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#The_Bedroom",
+      "labels" : {
+        "IRI-based" : "The_Bedroom"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Starry_Night",
+      "labels" : {
+        "IRI-based" : "Starry_Night"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class19",
+    "label" : {
+      "IRI-based" : "Asylum"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Asylum",
+    "superClasses" : [ "class1" ],
+    "instances" : 1,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Saint-Paul-de-Mausole_Asylum",
+      "labels" : {
+        "IRI-based" : "Saint-Paul-de-Mausole_Asylum"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class31",
+    "label" : {
+      "IRI-based" : "Use_of_Light"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Use_of_Light",
+    "superClasses" : [ "class10" ],
+    "instances" : 0
+  }, {
+    "id" : "class24",
+    "label" : {
+      "IRI-based" : "Visual_Tension"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Visual_Tension",
+    "superClasses" : [ "class10" ],
+    "instances" : 0
+  }, {
+    "id" : "class8",
+    "label" : {
+      "IRI-based" : "Texture"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Texture",
+    "superClasses" : [ "class12" ],
+    "instances" : 0
+  }, {
+    "id" : "class18",
+    "label" : {
+      "IRI-based" : "Complementary_Colors"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Complementary_Colors",
+    "superClasses" : [ "class15" ],
+    "instances" : 2,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Blue",
+      "labels" : {
+        "IRI-based" : "Blue"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Orange",
+      "labels" : {
+        "IRI-based" : "Orange"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class23",
+    "label" : {
+      "IRI-based" : "Place"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Place",
+    "subClasses" : [ "class25", "class36", "class1", "class13" ],
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "Institution"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Institution",
+    "subClasses" : [ "class19" ],
+    "superClasses" : [ "class23" ],
+    "instances" : 0
+  }, {
+    "id" : "class32",
+    "label" : {
+      "IRI-based" : "Brushstroke"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Brushstroke",
+    "superClasses" : [ "class35" ],
+    "instances" : 2,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Bold_Brushstrokes",
+      "labels" : {
+        "IRI-based" : "Bold_Brushstrokes"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Expressive_Brushstrokes",
+      "labels" : {
+        "IRI-based" : "Expressive_Brushstrokes"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class16",
+    "label" : {
+      "IRI-based" : "Emotion"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Emotion",
+    "superClasses" : [ "class35" ],
+    "instances" : 2,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Emotional_State",
+      "labels" : {
+        "IRI-based" : "Emotional_State"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Subjective_Emotional_Expression",
+      "labels" : {
+        "IRI-based" : "Subjective_Emotional_Expression"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class5",
+    "label" : {
+      "IRI-based" : "Color_Theory"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Color_Theory",
+    "subClasses" : [ "class15" ],
+    "instances" : 0
+  }, {
+    "id" : "class17",
+    "label" : {
+      "IRI-based" : "Post-Impressionism"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Post-Impressionism",
+    "superClasses" : [ "class11" ],
+    "instances" : 0
+  }, {
+    "id" : "class30",
+    "label" : {
+      "IRI-based" : "Color"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Color",
+    "superClasses" : [ "class12" ],
+    "instances" : 3,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Natural_Colors",
+      "labels" : {
+        "IRI-based" : "Natural_Colors"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Bright_Colors",
+      "labels" : {
+        "IRI-based" : "Bright_Colors"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Contrasting_Colors",
+      "labels" : {
+        "IRI-based" : "Contrasting_Colors"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class15",
+    "label" : {
+      "IRI-based" : "Pattern"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Pattern",
+    "subClasses" : [ "class18" ],
+    "superClasses" : [ "class5" ],
+    "instances" : 0
+  }, {
+    "id" : "class10",
+    "label" : {
+      "IRI-based" : "Elements_of_Composition"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Elements_of_Composition",
+    "subClasses" : [ "class20", "class28", "class31", "class24" ],
+    "instances" : 0
+  }, {
+    "id" : "class34",
+    "label" : {
+      "IRI-based" : "Artistic_Approach"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Artistic_Approach",
+    "instances" : 2,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Unique_Style",
+      "labels" : {
+        "IRI-based" : "Unique_Style"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Visual_Impact",
+      "labels" : {
+        "IRI-based" : "Visual_Impact"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class13",
+    "label" : {
+      "IRI-based" : "Town"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Town",
+    "superClasses" : [ "class23" ],
+    "instances" : 0
+  }, {
+    "id" : "class21",
+    "label" : {
+      "IRI-based" : "Painter"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Painter",
+    "superClasses" : [ "class7" ],
+    "instances" : 1,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Vincent_van_Gogh",
+      "labels" : {
+        "IRI-based" : "Vincent_van_Gogh"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class28",
+    "label" : {
+      "IRI-based" : "Structured_Compositions"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Structured_Compositions",
+    "superClasses" : [ "class10" ],
+    "instances" : 0
+  }, {
+    "id" : "class26",
+    "label" : {
+      "IRI-based" : "Inspiration"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Inspiration",
+    "subClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class14",
+    "label" : {
+      "IRI-based" : "View"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#View",
+    "subClasses" : [ "class23" ],
+    "superClasses" : [ "class26" ],
+    "instances" : 1,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#View_From_Bedroom_Window",
+      "labels" : {
+        "IRI-based" : "View_From_Bedroom_Window"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class12",
+    "label" : {
+      "IRI-based" : "Elements_of_Art"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Elements_of_Art",
+    "subClasses" : [ "class30", "class27", "class9", "class8" ],
+    "instances" : 0
+  }, {
+    "id" : "class29",
+    "label" : {
+      "IRI-based" : "Artwork"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Artwork",
+    "subClasses" : [ "class37" ],
+    "instances" : 0
+  }, {
+    "id" : "class27",
+    "label" : {
+      "IRI-based" : "Line"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Line",
+    "superClasses" : [ "class12" ],
+    "instances" : 0
+  }, {
+    "id" : "class6",
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Person",
+    "subClasses" : [ "class7" ],
+    "instances" : 0
+  }, {
+    "id" : "class36",
+    "label" : {
+      "IRI-based" : "Country"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Country",
+    "superClasses" : [ "class23" ],
+    "instances" : 1,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#France",
+      "labels" : {
+        "IRI-based" : "France"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class25",
+    "label" : {
+      "IRI-based" : "Commune"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Commune",
+    "superClasses" : [ "class23" ],
+    "instances" : 1,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Saint-R?my-de-Provence",
+      "labels" : {
+        "IRI-based" : "Saint-R?my-de-Provence"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class4",
+    "label" : {
+      "IRI-based" : "Interpretation"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Interpretation",
+    "instances" : 2,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Transformative_Power_of_Nature_and_Art",
+      "labels" : {
+        "IRI-based" : "Transformative_Power_of_Nature_and_Art"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Personal_Struggles_with_Mental_Illness",
+      "labels" : {
+        "IRI-based" : "Personal_Struggles_with_Mental_Illness"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class7",
+    "label" : {
+      "IRI-based" : "Artist"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Artist",
+    "subClasses" : [ "class21" ],
+    "superClasses" : [ "class6" ],
+    "instances" : 0
+  }, {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "Expressionism"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Expressionism",
+    "superClasses" : [ "class11" ],
+    "instances" : 0
+  }, {
+    "id" : "class22",
+    "label" : {
+      "IRI-based" : "Impressionism"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Impressionism",
+    "superClasses" : [ "class11" ],
+    "instances" : 0
+  }, {
+    "id" : "class33",
+    "label" : {
+      "IRI-based" : "Popular_Culture"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Popular_Culture",
+    "superClasses" : [ "class3" ],
+    "instances" : 3,
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Music",
+      "labels" : {
+        "IRI-based" : "Music"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Films",
+      "labels" : {
+        "IRI-based" : "Films"
+      },
+      "annotations" : { }
+    }, {
+      "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Television",
+      "labels" : {
+        "IRI-based" : "Television"
+      },
+      "annotations" : { }
+    } ]
+  }, {
+    "id" : "class35",
+    "label" : {
+      "IRI-based" : "Artistic_Expression"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Artistic_Expression",
+    "subClasses" : [ "class32", "class16" ],
+    "instances" : 0
+  }, {
+    "id" : "class11",
+    "label" : {
+      "IRI-based" : "Art_Movement"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#Art_Movement",
+    "subClasses" : [ "class2", "class22", "class17" ],
+    "instances" : 0
+  }, {
+    "id" : "class39",
+    "label" : {
+      "IRI-based" : "anonymous"
+    },
+    "instances" : 0,
+    "intersection" : [ "class34", "class35" ]
+  }, {
+    "id" : "class38",
+    "label" : {
+      "IRI-based" : "anonymous"
+    },
+    "instances" : 0,
+    "intersection" : [ "class10", "class16" ]
+  }, {
+    "id" : "class41",
+    "label" : {
+      "IRI-based" : "anonymous"
+    },
+    "instances" : 0,
+    "intersection" : [ "class30", "class10" ]
+  }, {
+    "id" : "thing1",
+    "label" : {
+      "undefined" : "Thing"
+    },
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "instances" : 0
+  } ],
+  "datatype" : [ {
+    "id" : "datatype1",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "datatype4",
+    "type" : "rdfs:Datatype"
+  } ],
+  "datatypeAttribute" : [ {
+    "id" : "datatype1",
+    "label" : {
+      "IRI-based" : "integer"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer"
+  }, {
+    "id" : "datatype2",
+    "label" : {
+      "IRI-based" : "string"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#string"
+  }, {
+    "id" : "datatype3",
+    "label" : {
+      "IRI-based" : "string"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#string"
+  }, {
+    "id" : "datatype4",
+    "label" : {
+      "IRI-based" : "string"
+    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "property" : [ {
+    "id" : "property62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property32",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "property31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property73",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property26",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "property4",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property25",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property3",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property2",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property84",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property1",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "property22",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "property21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property24",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property23",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "property77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property76",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property15",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "property9",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property14",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property7",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "property61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property6",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "property18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property11",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "property10",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "property40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property46",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "property43",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "property72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property49",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "property65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "property48",
+    "type" : "owl:disjointWith"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property62",
+    "label" : {
+      "IRI-based" : "locatedIn"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#locatedIn",
+    "domain" : "class14",
+    "range" : "class23"
+  }, {
+    "id" : "property39",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class27",
+    "range" : "class12"
+  }, {
+    "id" : "property38",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class30",
+    "range" : "class12"
+  }, {
+    "id" : "property60",
+    "label" : {
+      "IRI-based" : "linkedWith"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#linkedWith",
+    "domain" : "class32",
+    "range" : "class16"
+  }, {
+    "id" : "property37",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class23",
+    "range" : "class14"
+  }, {
+    "id" : "property36",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class14",
+    "range" : "class26"
+  }, {
+    "id" : "property32",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "domain" : "class28",
+    "range" : "class28"
+  }, {
+    "id" : "property31",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class24",
+    "range" : "class10"
+  }, {
+    "id" : "property73",
+    "label" : {
+      "IRI-based" : "interpretedAs"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#interpretedAs",
+    "domain" : "class37",
+    "range" : "class4"
+  }, {
+    "id" : "property30",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class31",
+    "range" : "class10"
+  }, {
+    "id" : "property57",
+    "label" : {
+      "IRI-based" : "emphasized"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#emphasized",
+    "domain" : "class11",
+    "range" : "class38"
+  }, {
+    "id" : "property75",
+    "label" : {
+      "IRI-based" : "citedAs"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#citedAs",
+    "domain" : "class29",
+    "range" : "class3"
+  }, {
+    "id" : "property63",
+    "label" : {
+      "IRI-based" : "resultedIn"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#resultedIn",
+    "domain" : "class30",
+    "range" : "class39"
+  }, {
+    "id" : "property29",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class28",
+    "range" : "class10"
+  }, {
+    "id" : "property26",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "domain" : "class30",
+    "range" : "class30"
+  }, {
+    "id" : "property4",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class28",
+    "range" : "class20"
+  }, {
+    "id" : "property81",
+    "label" : {
+      "IRI-based" : "interestedIn"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#interestedIn",
+    "domain" : "class21",
+    "range" : "class5"
+  }, {
+    "id" : "property59",
+    "label" : {
+      "IRI-based" : "isSignificantElementIn"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#isSignificantElementIn",
+    "domain" : "class30",
+    "range" : "class37"
+  }, {
+    "id" : "property25",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class2",
+    "range" : "class17"
+  }, {
+    "id" : "property3",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class24",
+    "range" : "class20"
+  }, {
+    "id" : "property2",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class31",
+    "range" : "class20"
+  }, {
+    "id" : "property28",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class20",
+    "range" : "class10"
+  }, {
+    "id" : "property84",
+    "label" : {
+      "IRI-based" : "bornInYear"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#bornInYear",
+    "domain" : "class6",
+    "range" : "datatype1"
+  }, {
+    "id" : "property27",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class18",
+    "range" : "class15"
+  }, {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "domain" : "class20",
+    "range" : "class20"
+  }, {
+    "id" : "property22",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "domain" : "class5",
+    "range" : "class5"
+  }, {
+    "id" : "property21",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class15",
+    "range" : "class5"
+  }, {
+    "id" : "property24",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class22",
+    "range" : "class17"
+  }, {
+    "id" : "property23",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "domain" : "class17",
+    "range" : "class17"
+  }, {
+    "id" : "property77",
+    "label" : {
+      "IRI-based" : "admittedTo"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#admittedTo",
+    "domain" : "class7",
+    "range" : "class1"
+  }, {
+    "id" : "property68",
+    "label" : {
+      "IRI-based" : "evidentInTheUse"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#evidentInTheUse",
+    "domain" : "class15",
+    "range" : "class18"
+  }, {
+    "id" : "property83",
+    "label" : {
+      "IRI-based" : "relatedTo"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#relatedTo",
+    "domain" : "class37",
+    "range" : "class11"
+  }, {
+    "id" : "property20",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class19",
+    "range" : "class1"
+  }, {
+    "id" : "property76",
+    "label" : {
+      "IRI-based" : "focusedOn"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#focusedOn",
+    "domain" : "class11",
+    "range" : "class41"
+  }, {
+    "id" : "property78",
+    "label" : {
+      "IRI-based" : "referencedIn"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#referencedIn",
+    "domain" : "class37",
+    "range" : "class33"
+  }, {
+    "id" : "property70",
+    "label" : {
+      "IRI-based" : "applied"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#applied",
+    "domain" : "class21",
+    "range" : "class30"
+  }, {
+    "id" : "property79",
+    "label" : {
+      "IRI-based" : "used"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#used",
+    "domain" : "class21",
+    "range" : "class18"
+  }, {
+    "id" : "property67",
+    "label" : {
+      "IRI-based" : "generated"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#generated",
+    "domain" : "class18",
+    "range" : "class10"
+  }, {
+    "id" : "property17",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class36",
+    "range" : "class23"
+  }, {
+    "id" : "property16",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class25",
+    "range" : "class23"
+  }, {
+    "id" : "property15",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "domain" : "class8",
+    "range" : "class8"
+  }, {
+    "id" : "property9",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class24",
+    "range" : "class31"
+  }, {
+    "id" : "property14",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class28",
+    "range" : "class24"
+  }, {
+    "id" : "property7",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "domain" : "class31",
+    "range" : "class31"
+  }, {
+    "id" : "property61",
+    "label" : {
+      "IRI-based" : "associatedWith"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#associatedWith",
+    "domain" : "class21",
+    "range" : "class11"
+  }, {
+    "id" : "property19",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class13",
+    "range" : "class23"
+  }, {
+    "id" : "property6",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "domain" : "class9",
+    "range" : "class9"
+  }, {
+    "id" : "property18",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class1",
+    "range" : "class23"
+  }, {
+    "id" : "property5",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class33",
+    "range" : "class3"
+  }, {
+    "id" : "property86",
+    "label" : {
+      "IRI-based" : "hasNationality"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#hasNationality",
+    "domain" : "class6",
+    "range" : "datatype3"
+  }, {
+    "id" : "property74",
+    "label" : {
+      "IRI-based" : "seenAs"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#seenAs",
+    "domain" : "class32",
+    "range" : "class34"
+  }, {
+    "id" : "property11",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "domain" : "class24",
+    "range" : "class24"
+  }, {
+    "id" : "property10",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class28",
+    "range" : "class31"
+  }, {
+    "id" : "property52",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class32",
+    "range" : "class35"
+  }, {
+    "id" : "property53",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class16",
+    "range" : "class35"
+  }, {
+    "id" : "property64",
+    "label" : {
+      "IRI-based" : "employed"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#employed",
+    "domain" : "class21",
+    "range" : "class32"
+  }, {
+    "id" : "property54",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class2",
+    "range" : "class11"
+  }, {
+    "id" : "property55",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class22",
+    "range" : "class11"
+  }, {
+    "id" : "property56",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class17",
+    "range" : "class11"
+  }, {
+    "id" : "property82",
+    "label" : {
+      "IRI-based" : "becameASymbolOf"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#becameASymbolOf",
+    "domain" : "class29",
+    "range" : "class3"
+  }, {
+    "id" : "property66",
+    "label" : {
+      "IRI-based" : "createdBy"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#createdBy",
+    "domain" : "class29",
+    "range" : "class6",
+    "superproperty" : [ "property71" ]
+  }, {
+    "id" : "property80",
+    "label" : {
+      "IRI-based" : "inspiredBy"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#inspiredBy",
+    "domain" : "class7",
+    "range" : "class26"
+  }, {
+    "id" : "property58",
+    "label" : {
+      "IRI-based" : "contains"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#contains",
+    "domain" : "class37",
+    "range" : "class18"
+  }, {
+    "id" : "property85",
+    "label" : {
+      "IRI-based" : "hasFullName"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#hasFullName",
+    "domain" : "class6",
+    "range" : "datatype2"
+  }, {
+    "id" : "property69",
+    "label" : {
+      "IRI-based" : "influencedBy"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#influencedBy",
+    "domain" : "class17",
+    "range" : "class22"
+  }, {
+    "id" : "property41",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class8",
+    "range" : "class12"
+  }, {
+    "id" : "property42",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class37",
+    "range" : "class29"
+  }, {
+    "id" : "property87",
+    "label" : {
+      "IRI-based" : "consideredAs"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#consideredAs",
+    "domain" : "class6",
+    "range" : "datatype4"
+  }, {
+    "id" : "property40",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class9",
+    "range" : "class12"
+  }, {
+    "id" : "property45",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class21",
+    "range" : "class7"
+  }, {
+    "id" : "property46",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "domain" : "class2",
+    "range" : "class2"
+  }, {
+    "id" : "property43",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "domain" : "class27",
+    "range" : "class27"
+  }, {
+    "id" : "property72",
+    "label" : {
+      "IRI-based" : "utilized"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#utilized",
+    "domain" : "class7",
+    "range" : "class12"
+  }, {
+    "id" : "property71",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "attributes" : [ "external" ],
+    "domain" : "thing1",
+    "range" : "thing1",
+    "subproperty" : [ "property66" ]
+  }, {
+    "id" : "property44",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class7",
+    "range" : "class6"
+  }, {
+    "id" : "property49",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "domain" : "class22",
+    "range" : "class22"
+  }, {
+    "id" : "property65",
+    "label" : {
+      "IRI-based" : "contributedIn"
+    },
+    "iri" : "http://www.semanticweb.org/Vincent_van_Gogh_The_Starry_Night#contributedIn",
+    "domain" : "class29",
+    "range" : "class3"
+  }, {
+    "id" : "property48",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class22",
+    "range" : "class2"
+  } ]
+}
