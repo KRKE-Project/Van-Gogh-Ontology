@@ -1,0 +1,442 @@
+@prefix : <http://www.semanticweb.org/van_gogh_agony#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/van_gogh_agony#> .
+
+<http://www.semanticweb.org/van_gogh_agony> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/van_gogh_agony#createdBy
+:createdBy rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Artwork ;
+           rdfs:range :Person .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#hasConcept
+:hasConcept rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Artwork ;
+            rdfs:range :ConceptOfArtwork .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#hasInspirationSource
+:hasInspirationSource rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      rdfs:domain :Artwork ;
+                      rdfs:range :ArtistInspirationSource .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#hasInterpretation
+:hasInterpretation rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain :Artwork ;
+                   rdfs:range :ScholarlyInterpretation .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#hasMeaning
+:hasMeaning rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :Artwork
+                                        :ArtworkCharacteristic
+                                      )
+                        ] ;
+            rdfs:range :Meaning .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#isAbout
+:isAbout rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :IdeaOfArtwork ;
+         rdfs:range :Artwork .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#isDepictedOn
+:isDepictedOn rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Place ;
+              rdfs:range :Artwork .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#isGivenBy
+:isGivenBy rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :ScholarlyInterpretation ;
+           rdfs:range :Person .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#isRelatedTo
+:isRelatedTo rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdf:type owl:InverseFunctionalProperty ;
+             rdfs:domain [ rdf:type owl:Class ;
+                           owl:unionOf ( :Artwork
+                                         :BiblicalEpisode
+                                       )
+                         ] ;
+             rdfs:range [ rdf:type owl:Class ;
+                          owl:unionOf ( :Artwork
+                                        :BiblicalEpisode
+                                      )
+                        ] .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#isSupportedBy
+:isSupportedBy rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain [ rdf:type owl:Class ;
+                             owl:unionOf ( :ArtisticApproach
+                                           :IdeaOfArtwork
+                                         )
+                           ] ;
+               rdfs:range :Person .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#occuredIn
+:occuredIn rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :IdeaOfArtwork ;
+           rdfs:range :Place .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#preceded
+:preceded rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Artwork ;
+          rdfs:range :Artwork .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#usedIn
+:usedIn rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty ;
+        rdfs:domain [ rdf:type owl:Class ;
+                      owl:unionOf ( :ArtisticApproach
+                                    :ArtworkCharacteristic
+                                  )
+                    ] ;
+        rdfs:range :Artwork .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/van_gogh_agony#hasDescription
+:hasDescription rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain :Place ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :Person ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#hasSubject
+:hasSubject rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :ArtisticApproach
+                                        :BiblicalEpisode
+                                      )
+                        ] ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#hasTitle
+:hasTitle rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :Artwork ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#occuredOn
+:occuredOn rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :IdeaOfArtwork ;
+           rdfs:range xsd:dateTime .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/van_gogh_agony#Artist
+:Artist rdf:type owl:Class ;
+        rdfs:subClassOf :Person .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#ArtistInspirationSource
+:ArtistInspirationSource rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#ArtisticApproach
+:ArtisticApproach rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Artwork
+:Artwork rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#ArtworkCharacteristic
+:ArtworkCharacteristic rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#BiblicalEpisode
+:BiblicalEpisode rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Color
+:Color rdf:type owl:Class ;
+       rdfs:subClassOf :ArtworkCharacteristic .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#ConceptOfArtwork
+:ConceptOfArtwork rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#IdeaOfArtwork
+:IdeaOfArtwork rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Imagination
+:Imagination rdf:type owl:Class ;
+             rdfs:subClassOf :ArtistInspirationSource .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#ImagionaryPlace
+:ImagionaryPlace rdf:type owl:Class ;
+                 rdfs:subClassOf :Place ;
+                 owl:disjointWith :RealPlace .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Line
+:Line rdf:type owl:Class ;
+      rdfs:subClassOf :ArtworkCharacteristic .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#MainInterpretation
+:MainInterpretation rdf:type owl:Class ;
+                    rdfs:subClassOf :ScholarlyInterpretation .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Meaning
+:Meaning rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Memory
+:Memory rdf:type owl:Class ;
+        rdfs:subClassOf :ArtistInspirationSource .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Observed_Reality
+:Observed_Reality rdf:type owl:Class ;
+                  rdfs:subClassOf :ArtistInspirationSource .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Painter
+:Painter rdf:type owl:Class ;
+         rdfs:subClassOf :Artist .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Painting
+:Painting rdf:type owl:Class ;
+          rdfs:subClassOf :Artwork .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Person
+:Person rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Place
+:Place rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#RealPlace
+:RealPlace rdf:type owl:Class ;
+           rdfs:subClassOf :Place .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Scholar
+:Scholar rdf:type owl:Class ;
+         rdfs:subClassOf :Person .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#ScholarlyInterpretation
+:ScholarlyInterpretation rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Shape
+:Shape rdf:type owl:Class ;
+       rdfs:subClassOf :ArtworkCharacteristic .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/van_gogh_agony#Alpilles_mountains
+:Alpilles_mountains rdf:type owl:NamedIndividual ,
+                             :Observed_Reality ,
+                             :RealPlace ;
+                    :isDepictedOn :Starry_Night ;
+                    :hasDescription "The Chaîne des Alpilles is a small range of low mountains in Provence, southern France, located about 20 km south of Avignon."@en .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Arles
+:Arles rdf:type owl:NamedIndividual ,
+                :RealPlace ;
+       :isDepictedOn :Cafe_Terrace_at_Night ,
+                     :Starry_Night_Order_the_Rhone ;
+       :hasDescription "Arles is a coastal city and commune in the South of France, a subprefecture in the Bouches-du-Rhône department of the Provence-Alpes-Côte d'Azur region, in the former province of Provence."@en .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Blue
+:Blue rdf:type owl:NamedIndividual ,
+               :Color ;
+      :hasMeaning :Religious_meaning ;
+      :usedIn :Starry_Night .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Cafe_Terrace_at_Night
+:Cafe_Terrace_at_Night rdf:type owl:NamedIndividual ,
+                                :Painting ;
+                       :createdBy :Vincent_Willem_van_Gogh ;
+                       :hasConcept :Concept_StarryNight ;
+                       :hasInspirationSource :Urban_landscapes_of_Arles ;
+                       :preceded :Starry_Night ;
+                       :hasTitle "Cafe Terrace at Night"@en .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Citron-yellow
+:Citron-yellow rdf:type owl:NamedIndividual ,
+                        :Color ;
+               :hasMeaning :Religious_meaning ;
+               :usedIn :Starry_Night .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Concept_StarryNight
+:Concept_StarryNight rdf:type owl:NamedIndividual ,
+                              :ConceptOfArtwork ;
+                     :hasSubject "Starry Night"@en .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Emile_Bernard
+:Emile_Bernard rdf:type owl:NamedIndividual ,
+                        :Painter ;
+               :hasName "Emile Bernard" .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Eugene_Henri_Paul_Gauguin
+:Eugene_Henri_Paul_Gauguin rdf:type owl:NamedIndividual ,
+                                    :Painter ;
+                           :hasName "Eugene Henri Paul Gauguin" .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Idea_StarryNight
+:Idea_StarryNight rdf:type owl:NamedIndividual ,
+                           :IdeaOfArtwork ;
+                  :isAbout :Starry_Night ;
+                  :occuredIn :Arles ;
+                  :occuredOn "Spring 1888" .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Images_of_crescents_in_art
+:Images_of_crescents_in_art rdf:type owl:NamedIndividual ,
+                                     :Memory .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Imagination_of_something_sublime
+:Imagination_of_something_sublime rdf:type owl:NamedIndividual ,
+                                           :Imagination ;
+                                  :hasSubject "Imagination of something more sublime and pure opposed to everyday reality" .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Lauren_Soth
+:Lauren_Soth rdf:type owl:NamedIndividual ,
+                      :Scholar ;
+             :hasName "Lauren Soth" .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Religious_meaning
+:Religious_meaning rdf:type owl:NamedIndividual ,
+                            :MainInterpretation ,
+                            :Meaning ;
+                   :isGivenBy :Lauren_Soth .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Saint-Rémy-de-Provence
+:Saint-Rémy-de-Provence rdf:type owl:NamedIndividual ,
+                                 :RealPlace ;
+                        :hasDescription "Saint-Rémy-de-Provence is a commune in the Bouches-du-Rhône department, Provence-Alpes-Côte d'Azur, Southern France. Located in the northern part of the Alpilles, of which it is the main town, it had a population of 9,893 in 2017."@en .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Starry_Night
+:Starry_Night rdf:type owl:NamedIndividual ,
+                       :Painting ;
+              :createdBy :Vincent_Willem_van_Gogh ;
+              :hasConcept :Concept_StarryNight ;
+              :hasInspirationSource :Alpilles_mountains ,
+                                    :Images_of_crescents_in_art ,
+                                    :Imagination_of_something_sublime ,
+                                    :Typical_churches_of_Brabant_Netherlands ;
+              :hasInterpretation :Religious_meaning ;
+              :isRelatedTo :The_Agony_in_the_Garden ;
+              :hasTitle "Starry Night"@en .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Starry_Night_Order_the_Rhone
+:Starry_Night_Order_the_Rhone rdf:type owl:NamedIndividual ,
+                                       :Painting ;
+                              :createdBy :Vincent_Willem_van_Gogh ;
+                              :hasConcept :Concept_StarryNight ;
+                              :hasInspirationSource :Urban_landscapes_of_Arles ;
+                              :preceded :Starry_Night ;
+                              :hasTitle "Starry Night Order the Rhone"@en .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#The_Agony_in_the_Garden
+:The_Agony_in_the_Garden rdf:type owl:NamedIndividual ,
+                                  :BiblicalEpisode ;
+                         :isRelatedTo :Starry_Night ;
+                         :hasSubject """Christ with the Angel in Gethsemane
+or The Agony in the Garden"""@en .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Typical_churches_of_Brabant_Netherlands
+:Typical_churches_of_Brabant_Netherlands rdf:type owl:NamedIndividual ,
+                                                  :Memory .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Urban_landscapes_of_Arles
+:Urban_landscapes_of_Arles rdf:type owl:NamedIndividual ,
+                                    :Observed_Reality .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Vincent_Willem_van_Gogh
+:Vincent_Willem_van_Gogh rdf:type owl:NamedIndividual ,
+                                  :Painter ;
+                         :hasName "Vincent Willem van Gogh" .
+
+
+###  http://www.semanticweb.org/van_gogh_agony#Working_from_imagination
+:Working_from_imagination rdf:type owl:NamedIndividual ,
+                                   :ArtisticApproach ;
+                          :isSupportedBy :Emile_Bernard ,
+                                         :Eugene_Henri_Paul_Gauguin ,
+                                         :Vincent_Willem_van_Gogh ;
+                          :usedIn :Starry_Night ;
+                          :hasSubject "Working from imagination"@en .
+
+
+###  Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi
